@@ -12,6 +12,8 @@ import DoctorDashboard from './components/DoctorDashboard';
 import BookAppointment from './components/BookAppointment';
 import VideoCall from './components/VideoCall';
 import AppointmentsList from './components/AppointmentsList';
+import HealthRecords from './components/HealthRecords';
+
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
@@ -96,6 +98,7 @@ function App() {
                 </ProtectedRoute>
               } 
             />
+            <Route path="/health-records" element={<HealthRecords />} />
             
             {/* Catch all route */}
             <Route path="*" element={<Navigate to="/" replace />} />
