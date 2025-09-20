@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "vite-plugin-pwa": "^1.0.3"
+  },
+  "dependencies": {
+    "dexie": "^4.2.0",
+    "localforage": "^1.10.0"
+  }
+}
